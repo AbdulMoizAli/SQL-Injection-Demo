@@ -1,0 +1,104 @@
+.input-field label {
+    color: white !important;
+}
+
+.input-field input[type=text]:focus+label {
+    color: #00A4F6 !important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #00A4F6 !important;
+    box-shadow: 0 1px 0 0 #00A4F6 !important;
+}
+
+.input-field input[type=text] {
+    border-bottom: 1px solid white !important;
+}
+
+.input-field .prefix.active {
+    color: #00A4F6;
+}
+
+.input-field .prefix {
+    color: white;
+}
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid lightgreen !important;
+    box-shadow: 0 1px 0 0 lightgreen !important;
+}
+
+input {
+    color: white;
+}
+
+button {
+    background: #5255F2 !important;
+}
+
+body {
+    background: #37474f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #455a64;
+}
+
+#table-container {
+    background: white;
+    padding: 1%;
+    border-radius: 1%;
+}
+
+#render-content {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+th {
+    color: #5255F2;
+}
+
+td {
+    color: #607d8b;
+}
+
+.error {
+    color: #ff9100;
+}
+
+.loader {
+    margin-top: 5%;
+}
+
+.login-link {
+    margin-right: 5%;
+}
+
+ul {
+    padding-right: 1%;
+}
+
+.form-container {
+    padding-top: 10%;
+    background: black;
+    height: 30rem;
+    width: 30rem;
+    margin-top: 10%;
+}
+
+.stick-1 {
+    width: 100%;
+    height: 3px;
+    background: #5255F2;
+    margin-bottom: 2%;
+}
+
+.stick-2 {
+    width: 100%;
+    height: 3px;
+    background: #5255F2;
+    margin-top: 2%;
+}
