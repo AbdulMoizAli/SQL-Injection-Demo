@@ -1,10 +1,10 @@
-# SQL Injection Demonstration
+# SQL Injection Demonstration 💉
 
 This is a Node.js/Express.js based application with SQL Server Database, vulnerable to SQLi to demonstrate the SQL Injection attack.
 
-## Getting Started
+## Getting Started 🔰
 
-### 1. Installation
+### 1. Installation ⬇
 
 * Clone this repo
 
@@ -20,7 +20,7 @@ This is a Node.js/Express.js based application with SQL Server Database, vulnera
   $ npm install
   ```
 
-### 2. Configuration
+### 2. Configuration 🛠
 
 * Connect to the local instance of SQL Server and Execute the `init.sql` script to create and populate the database and tables. You can use SSMS or Azure Data Studio to execute the script.
 
@@ -33,9 +33,9 @@ This is a Node.js/Express.js based application with SQL Server Database, vulnera
   DB_NAME=Moviedb
   ```
     
-## Usage
+## Usage ⚙
 
-### 1. Start the server
+### 1. Start the server 🖥
   
 ```
 $ npm run dev
@@ -43,7 +43,7 @@ $ npm run dev
     
 Use SQL statements from the `inject.sql` script to demonstrate the SQLi attack. `inject.sql` contains the common flow and 5 **UNION** based SQL statements that are typically used to attack and extract information from the database.
   
-### 2. Example
+### 2. Example 👇
 
 Injecting the following SQL Statement in the user input would retrieve the users information, such as user's Email and Password Hash. Make sure to include a single quote at the start and 2 hyphens at the end of the statement.
   
